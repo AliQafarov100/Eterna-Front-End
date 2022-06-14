@@ -307,6 +307,10 @@ body .arrow i {
 }
 
 #forSlider {
+  height: 450px;
+}
+
+#forSlider .slider-icon {
   position: relative;
 }
 
@@ -382,12 +386,12 @@ body .arrow i {
 }
 
 #forSlider .slider .active {
-  opacity: 1;
   opacity: .7;
 }
 
 #card-section {
   position: relative;
+  bottom: 110px;
 }
 
 #card-section .mini-card .card-property {
@@ -446,10 +450,10 @@ body .arrow i {
   .bars {
     display: none;
   }
-  .mini-card {
-    margin-top: 350px;
+  #card-section {
+    bottom: 100px;
   }
-  .mini-card .card-property {
+  #card-section .mini-card .card-property {
     margin-top: 10px;
   }
   #carousel img {
@@ -463,11 +467,11 @@ body .arrow i {
   .services {
     display: none;
   }
-  .mini-card {
-    top: 450px;
+  #card-section {
+    top: 0px;
   }
-  .mini-card .card-property {
-    margin: 10px auto;
+  #card-section .mini-card .card-property {
+    margin-top: 10px;
   }
   #carousel img {
     width: 80%;

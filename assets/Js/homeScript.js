@@ -4,6 +4,8 @@ let slider = document.querySelector(".slider");
 let points = document.querySelectorAll(".points");
 let arrow = document.querySelector(".arrow");
 
+
+
 window.addEventListener("scroll",function(){
     if(window.scrollY == 0){
         arrow.style.opacity = "0";
